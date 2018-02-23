@@ -1,0 +1,8 @@
+#timeline {
+    text-align: center;
+}
+
+#timeline table td, #timeline table th{
+   border: lightgray 1px solid;
+   padding: 1px;
+}
