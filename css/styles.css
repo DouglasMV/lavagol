@@ -2,7 +2,15 @@
     text-align: center;
 }
 
-#timeline table td, #timeline table th{
+#timeline table td, #timeline table th, #sec5w2h table td, #sec5w2h table th {
    border: lightgray 1px solid;
-   padding: 1px;
+   padding: 6px 2px;
+}
+
+#sec5w2h table tr:nth-child(even){
+    background-color: #494955;
+}
+
+#sec5w2h {
+    text-align: center;
 }
