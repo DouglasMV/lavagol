@@ -11,6 +11,11 @@
     background-color: #494955;
 }
 
+#sec5w2h table tr:hover{
+    background-color: #292929;
+    transition: 0.5s;
+}
+
 #sec5w2h {
     text-align: center;
 }
