@@ -12,7 +12,7 @@
     <title>Lava Gol</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#home">LavaGol</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +20,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#planta">Planta</a>
                     <a class="nav-item nav-link" href="#timeline">Time Line</a>
                     <a class="nav-item nav-link" href="#sec5w2h">5W+2H</a>
                     <a class="nav-item nav-link" href="#tarefas">Tarefas</a>
@@ -29,12 +30,12 @@
         </nav>
     
         <section id="home">
-            <div class="jumbotron">
+            <div class="jumbotron mb-0">
                 <div class="container">
                     <h1 class="display-4">LavaGol</h1>
                     <p class="lead">Trabalho da disciplina Gestão Empresarial em TI, Segurança da Informação, FATEC Americana 1º semestre 2018.</p>
                     <hr class="my-4">
-                    <h3 class="pb-2">Grupo:</h3>
+                    <h3>Grupo:</h3>
                     <p>Douglas Mariano Valero</p>
                     <p>Marcelo Aparecido Barbosa Junior</p>
                     <p>Matheus Felipe Lourente Nardez</p>
@@ -44,14 +45,14 @@
             </div>           
         </section>
 
-        <section id="planta">
+        <section id="planta" class="bg-dark text-light">
             <div class="container p-5">
                 <h3>Planta do Local</h3>
                 <img src="planta.png" alt="planta">
             </div>
         </section>
 
-        <section id="timeline">
+        <section id="timeline" class="mt-5">
             <div class="container">
                 <h3 class="pb-3">Time Line Individual</h3>
                 
@@ -728,6 +729,12 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+            <div class="container pb-5">
+                    <a href="#nav" class="btn btn-lg btn-dark">Topo &uarr;</a>
+            </div>
+        </footer>
 
    
         <script src="./js/jquery-3.3.1.min.js"></script>
